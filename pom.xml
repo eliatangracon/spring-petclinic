@@ -6,7 +6,10 @@
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
   <version>2.4.5</version>
-
+  <functionAppName>meuaplicativo</functionAppName>
+  <functionAppRegion>westeurope</functionAppRegion>
+  <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
+  <functionResourceGroup>meugruporecurso</functionResourceGroup>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
